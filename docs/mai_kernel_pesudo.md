@@ -1,4 +1,6 @@
-下面給你兩個層級的 Mai-kernel 偽程式：
+# Pesudo code for Mai-kernel
+
+兩個層級的 Mai-kernel 偽程式：
 A.「精確但可向量化」版本（用行列式身分加速，無需四重迴圈）
 B.「可擴展」版本（加入 RFF/Nyström、時間對齊抽樣）
 
