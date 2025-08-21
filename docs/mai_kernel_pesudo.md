@@ -172,5 +172,3 @@ function RFF_Embed(X, rff_params):
 * 數值穩定：`pair_sum` 理論 ≥ 0；實作中可 `max(pair_sum, 0)` 以消弭浮點誤差。
 
 ---
-
-如果你要，我可以把這份偽程式轉成 **PyTorch/NumPy** 的參考實作（含 soft-DTW/GAK 權重計算與 RFF 模組化），以及提供一個 **SSv2 小型樣例** 的單元測試腳本。
